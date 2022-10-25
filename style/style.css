@@ -1,0 +1,112 @@
+:root{
+    --primario: #006D4E;
+    --primario-green: #4ED176;
+    --secundario-blue: #079DEF;
+    --secundario-305C: #52DEFF;
+    --secundario-164c: #FF7150;
+    --font-family-circular: 'CircularXX-Regular';
+}
+/*------Font-------*/
+@font-face {
+    font-family: 'CircularXX-Regular';
+    src: url('/fonts/CircularXX-Regular.otf') format('opentype'),
+        url('/fonts/CircularXX-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/*----------Style-------------*/
+body{
+    font-weight: 500;
+    color: var(--primario);
+    font-family: var(--font-family-circular) !important;
+}
+
+h1{
+    font-size: 40px !important;
+    margin-bottom: 24px !important;
+    text-align: center;
+    color: var(--primario-green);
+    font-family: var(--font-family-circular) !important;
+}
+h2{
+    text-align: center;
+    color: var(--primario-green);
+    font-size: 16px !important;
+}
+h3{
+    color: var(--primario-green);
+    text-align: start;
+    font-size: 18px !important;
+    font-weight: 800 !important;
+}
+h4{
+    color: var(--primario-green);
+    text-align: center;
+    font-size: 16px !important;
+}
+.margen{
+    margin: 24px 0px;
+    align-items: center;
+}
+.boton-v{
+    background-color: var(--primario-green) !important;
+    border-color: var(--primario-green) !important;
+    height: 56px;
+}
+
+.btn-bg-white{
+    color: var(--primario) !important;
+    border-color: var(--primario-green) !important;
+    background-color: white !important;
+    height: 56px;
+}
+.btn-white{
+    color: var(--primario-green) !important;
+    border-color: var(--primario-green) !important;
+    background-color: white !important;
+    height: 56px;
+}
+.logo-img{
+    width: 50%;
+    /*-margin: 24px;-*/
+    text-align: center;
+}
+.perfil-img{
+    width: 70%;
+}
+.col-8{
+    text-align: center;
+}
+.font-style{
+    font-weight: 200 !important;
+}
+label, .form-text{
+    color: var(--primario) !important;
+}
+.form-control{
+    height: 56px;
+}
+.iniciar{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.btn-exportar{
+    background-color: white !important;
+    color: black !important;
+    border-color: black !important;
+}
+.nombre{
+    font-size: 16px !important;
+    color: var(--primario);
+    text-align: start;
+    font-weight: 300 !important;
+}
+.fecha{
+    color: var(--primario);
+    font-weight: 200 !important;
+    font-size: 14px;
+}
