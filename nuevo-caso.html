@@ -12,6 +12,7 @@
     <title>Comparador</title>
   </head>
   <body>
+    <!--Nav-->
     <nav class="navbar fixed-top navbar-light bg-light">
       <div class="container-fluid">
         <div class="row">
@@ -31,7 +32,7 @@
               </nav>
           </div>
           <div class="col-8">
-            <img class="logo-img" src="img/soc-logo.png">
+            <a href="home.html"><img class="logo-img" src="img/soc-logo.png"></a>
           </div>
           <div class="col-2">
             <img class="perfil-img" src="img/perfil.png">
@@ -39,6 +40,7 @@
         </div>
       </div>
     </nav>
+    <!--NavFin-->   
     <div class="container">
       <div class="row margen" style="margin-top:80px;">
         <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
@@ -46,36 +48,54 @@
             <li class="breadcrumb-item"><a href="home.html">
               <img src="img/btn-back.png" style="width: 24px;" alt="" srcset=""></a></li>
             <li class="breadcrumb-item active" aria-current="page">
-              <h3>Nuevo Caso</h3></li>
+              <h3>Nuevo Caso</h3>
+            </li>
+            <li></li>
           </ol>
         </nav>
       </div>
       <div class="container">
         <div class="row">
+          <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#" class="breadc">1 Datos personales</a></li>
+              <li class="breadcrumb-item active" aria-current="page">2 Destino</li>
+            </ol>
+          </nav>
+        </div>
+        <div class="row">
           <div class="mb-3">
-            <label for="formGroupExampleInput2" class="form-label">Destino</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Selecciona un destino de tu credito">
+            <label for="formGroupExampleInput2" class="form-label">Nombre(s)</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Escribe tu(s) Nombre(s)">
           </div>
           <div class="mb-3">
-            <label for="formGroupExampleInput2" class="form-label">Programas</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Selecciona un programa">
+            <label for="formGroupExampleInput2" class="form-label">Apellido paterno</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Escribe tu apellido paterno">
           </div>
           <div class="mb-3">
-            <label for="formGroupExampleInput2" class="form-label">Valor vivienda</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ingresa el valor de la vivienda">
+            <label for="formGroupExampleInput2" class="form-label">Apellido materno</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Escribe tu apellido materno">
           </div>
           <div class="mb-3">
-            <label for="formGroupExampleInput2" class="form-label">Monto del credito</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ingresa el monto">
+            <label for="formGroupExampleInput2" class="form-label">Fecha de nacimiento</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="dd/mm/aaaa">
           </div>
           <div class="mb-3">
-            <label for="formGroupExampleInput2" class="form-label">Plazos a cotizar</label>
-            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Ingresa el plazo">
+            <label for="formGroupExampleInput2" class="form-label">Correo electrónico</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Escribe tu correo electrónico">
           </div>
           <div class="mb-3">
-            <label for="formGroupExampleInput" class="form-label">Bancos</label>
+            <label for="formGroupExampleInput2" class="form-label">Teléfono Celular (10 Digitos)</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Escribe tu Teléfono Celular">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">CURP</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Escribe tu CURP (18 caracteres)">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Estado</label>
             <select class="form-select" aria-label="Default select">
-              <option selected>Selecciona el/los banco de interés</option>
+              <option selected>Selecciona el estado</option>
               <option value="1">Estado uno</option>
               <option value="2">Estado dos</option>
               <option value="3">Estado tres</option>
@@ -85,7 +105,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="boton-v btn btn-primary" type="button"><a class="iniciar" href="home.html">Cotizar</a></button>
+                <button class="boton-v btn btn-primary" type="button"><a class="iniciar" href="nuevo-caso-dos.html">Siguiente</a></button>
             </div>
         </div>
         </div>
