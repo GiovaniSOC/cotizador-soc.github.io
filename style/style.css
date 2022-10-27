@@ -5,6 +5,8 @@
     --secundario-305C: #52DEFF;
     --secundario-164c: #FF7150;
     --font-family-circular: 'CircularXX-Regular';
+    --font-family-circular-light: 'CircularXX-Light';
+    --font-family-circular-Thin: 'CircularXX-Thin';
 }
 /*------Font-------*/
 @font-face {
@@ -15,15 +17,33 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'CircularXX-Light';
+    src: url('/fonts/CircularXX-Light.otf') format('opentype'),
+        url('/fonts/CircularXX-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: light;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CircularXX-Thin';
+    src: url('/fonts/CircularXX-Thin.otf') format('opentype'),
+        url('/fonts/CircularXX-Thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: Thin;
+    font-display: swap;
+}
 
 
 /*----------Style-------------*/
 body{
     font-weight: 500;
     color: var(--primario);
-    font-family: var(--font-family-circular) !important;
 }
-
+.margen-l{
+    padding: 0px 16px !important;
+}
 h1{
     font-size: 40px !important;
     margin-bottom: 24px !important;
@@ -40,17 +60,59 @@ h3{
     color: var(--primario-green);
     text-align: start;
     font-size: 18px !important;
-    font-weight: 800 !important;
+    font-weight: 500 !important;
 }
 h4{
     color: var(--primario-green);
     text-align: center;
     font-size: 16px !important;
 }
+p{
+    font-family: var(--font-family-circular-light);
+}
+/*---Deatlle caso-*/
+.txt-ligth{
+    color: var(--primario);
+    font-size: 14px;
+    font-weight: 200;
+    text-align: start;
+    margin-bottom: 8px;
+}
+.txt-thin{
+    font-family: var(--font-family-circular-Thin);
+    color: var(--primario);
+    font-size: 14px;
+    font-weight: 200;
+    text-align: start;
+    margin-bottom: 4px;
+}
+.cliente{
+    text-align: center;
+    font-family: var(--font-family-circular-light);
+}
+.contacto{
+    text-align: center;
+}
+.contacto-ico{
+    width: 54px;
+}
+
+.ico{
+    width: 24px;
+}
+.rotate{
+    transform: rotate(-180deg);
+}
+
+/*--Margenes--*/
+.mg-top{
+    margin-top: 24px !important;
+}
 .margen{
     margin: 24px 0px;
     align-items: center;
 }
+/*--Fin Margenes--*/
 .boton-v{
     background-color: var(--primario-green) !important;
     border-color: var(--primario-green) !important;
@@ -68,6 +130,16 @@ h4{
     border-color: var(--primario-green) !important;
     background-color: white !important;
     height: 56px;
+}
+.btn-line-green{
+    color: var(--primario-green) !important;
+    border-color: var(--primario) !important;
+    background-color: white !important;
+    height: 40px;
+    margin: auto;
+    width: 250px;
+    text-align: center;
+    margin-top: 55px;
 }
 .logo-img{
     width: 50%;
@@ -109,4 +181,27 @@ label, .form-text{
     color: var(--primario);
     font-weight: 200 !important;
     font-size: 14px;
+}
+
+/*----Credito------*/
+tr{
+    border-style: hidden !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+tr > td{
+    padding: 2px !important;
+}
+tr > th{
+    padding: 2px !important;
+}
+
+.breadc{
+    text-decoration: underline;
+    color: var(--primario);
+}
+.breadc-a{
+    text-decoration: underline;
+    color: var(--primario-green);
 }
