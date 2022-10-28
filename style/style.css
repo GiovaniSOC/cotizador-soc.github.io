@@ -305,10 +305,12 @@ tr > th{
 }
 
 .breadc{
-    text-decoration: underline;
+    text-decoration: underline !important;
     color: var(--primario);
+    font-family: var(--font-family-circular);
 }
 .breadc-a{
-    text-decoration: underline;
+    text-decoration: underline !important;
     color: var(--primario-green);
+    font-family: var(--font-family-circular);
 }
