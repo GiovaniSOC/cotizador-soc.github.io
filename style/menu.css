@@ -5,6 +5,9 @@
     --secundario-305C: #52DEFF;
     --secundario-164c: #FF7150;
     --font-family-circular: 'CircularXX-Regular';
+    --font-family-circular-light: 'CircularXX-Light';
+    --font-family-circular-Thin: 'CircularXX-Thin';
+    --font-family-circular-Bold: 'CircularXX-Bold';
 }
 /*------Font-------*/
 @font-face {
@@ -13,6 +16,30 @@
         url('/fonts/CircularXX-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CircularXX-Light';
+    src: url('/fonts/CircularXX-Light.otf') format('opentype'),
+        url('/fonts/CircularXX-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: light;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CircularXX-Thin';
+    src: url('/fonts/CircularXX-Thin.otf') format('opentype'),
+        url('/fonts/CircularXX-Thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: Thin;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CircularXX-Bold';
+    src: url('/fonts/CircularXX-Bold.otf') format('opentype'),
+        url('/fonts/CircularXX-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: Bold;
     font-display: swap;
 }
 
@@ -107,7 +134,7 @@
 	text-align:center;
 	font-size:1.5rem;
 	line-height:3em;
-	height:3em;
+	height:2em;
     color: var(--primario);
 	text-transform:none;
 	font-weight:bold;
@@ -115,8 +142,14 @@
 .menuppal ul li a{
   text-decoration:none;
   color:white;
+  font-family: var(--font-family-circular-Bold);
+  font-size: 22px;
+  margin-bottom: 0px;
 }
 .menuppal ul li a:hover{
   text-decoration:none;
   color: var(--primario);
+  font-family: var(--font-family-circular-Bold);
+  font-size: 22px;
+  margin-bottom: 0px;
 }

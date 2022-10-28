@@ -4,6 +4,7 @@
     --secundario-blue: #079DEF;
     --secundario-305C: #52DEFF;
     --secundario-164c: #FF7150;
+    --btn: #ced4da;
     --font-family-circular: 'CircularXX-Regular';
     --font-family-circular-light: 'CircularXX-Light';
     --font-family-circular-Thin: 'CircularXX-Thin';
@@ -73,11 +74,15 @@ h3{
 }
 h4{
     color: var(--primario-green);
+    font-family: var(--font-family-circular);
     text-align: center;
     font-size: 16px !important;
 }
 p{
     font-family: var(--font-family-circular-light);
+}
+a{
+    text-decoration: none !important;
 }
 /*---Deatlle caso-*/
 .txt-ligth{
@@ -131,7 +136,7 @@ p{
     padding-bottom: 16px;
 }
 .mrg-menu{
-    margin-top: 350px !important;
+    margin-top: 415px !important;
 }
 .margenes{
     padding: 0 16px !important;
@@ -159,6 +164,7 @@ p{
 .btn-line-green{
     color: var(--primario-green) !important;
     border-color: var(--primario) !important;
+    font-family: var(--font-family-circular);
     background-color: white !important;
     height: 40px;
     margin: auto;
@@ -183,6 +189,23 @@ p{
 .rst{
     all: unset !important;
 }
+.form-control{
+    font-family: var(--font-family-circular-light) !important;
+    color: var(--btn) !important;
+    height: 56px;
+}
+.form-select{
+    height: 56px !important;
+    color: var(--btn) !important;
+    font-family: var(--font-family-circular-light);
+}
+.form-label{
+    color: var(--primario) !important;
+    font-family: var(--font-family-circular-light);
+}
+.form-check-label{
+    font-family: var(--font-family-circular-light);
+}
 /*----Fin Botones-----*/
 .logo-img{
     width: 50%;
@@ -196,17 +219,15 @@ p{
     text-align: center;
 }
 .font-style{
-    font-weight: 200 !important;
+    font-family: var(--font-family-circular-light) !important;
 }
 label, .form-text{
     color: var(--primario) !important;
 }
-.form-control{
-    height: 56px;
-}
 .iniciar{
     text-decoration: none !important;
     color: white !important;
+    font-family: var(--font-family-circular-light);
 }
 
 .btn-exportar{
@@ -224,7 +245,7 @@ label, .form-text{
     font-family: var(--font-family-circular-Thin);
 }
 .fecha{
-    color: var(--primario);
+    color: var(--btn);
     font-weight: 200 !important;
     font-size: 14px;
     text-align: start;
@@ -233,6 +254,18 @@ label, .form-text{
 }
 
 /*----Credito------*/
+.mensualidad-txt{
+    color: var(--primario);
+    font-size: 9px !important;
+    font-family: var(--font-family-circular-Bold);
+}
+.card-credito{
+    background-color: #EDFBF2;
+    color: #006D4E;
+    height: 100px;
+    align-items: center;
+    margin-bottom: 18px;
+}
 tr{
     border-style: hidden !important;
     margin: 0px;
