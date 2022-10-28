@@ -133,6 +133,9 @@ p{
 .mrg-menu{
     margin-top: 350px !important;
 }
+.margenes{
+    padding: 0 16px !important;
+}
 /*--Fin Margenes--*/
 /*----Botones-----*/
 .boton-v{
@@ -209,18 +212,24 @@ label, .form-text{
 .btn-exportar{
     background-color: white !important;
     color: black !important;
-    border-color: black !important;
+    border-color: #ced4da !important;
+    font-family: var(--font-family-circular-Thin);
+    font-size: 12px !important;
 }
 .nombre{
     font-size: 16px !important;
     color: var(--primario);
     text-align: start;
     font-weight: 300 !important;
+    font-family: var(--font-family-circular-Thin);
 }
 .fecha{
     color: var(--primario);
     font-weight: 200 !important;
     font-size: 14px;
+    text-align: start;
+    margin-bottom: 0px;
+    font-family: var(--font-family-circular-Thin);
 }
 
 /*----Credito------*/
