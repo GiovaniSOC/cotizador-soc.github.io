@@ -84,6 +84,11 @@ p{
 a{
     text-decoration: none !important;
 }
+.legal{
+    font-family: var(--font-family-circular-Thin);
+    color: var(--primario);
+    font-size: 10px;
+}
 /*---Deatlle caso-*/
 .txt-ligth{
     color: var(--primario);
@@ -144,6 +149,9 @@ a{
 .pd-0{
     padding: 0px !important;
 }
+.txt-align-s{
+    text-align: start !important;
+}
 /*--Fin Margenes--*/
 /*----Botones-----*/
 .boton-v{
@@ -194,6 +202,14 @@ a{
 }
 .rst{
     all: unset !important;
+}
+.btn-enviar{
+    background-color: white;
+    color: #006D4E;
+    border: 1px solid #4ED176 !important;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 22px;
 }
 .form-control{
     font-family: var(--font-family-circular-light) !important;
