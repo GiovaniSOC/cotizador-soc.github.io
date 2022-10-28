@@ -7,6 +7,7 @@
     --font-family-circular: 'CircularXX-Regular';
     --font-family-circular-light: 'CircularXX-Light';
     --font-family-circular-Thin: 'CircularXX-Thin';
+    --font-family-circular-Bold: 'CircularXX-Bold';
 }
 /*------Font-------*/
 @font-face {
@@ -25,13 +26,20 @@
     font-style: light;
     font-display: swap;
 }
-
 @font-face {
     font-family: 'CircularXX-Thin';
     src: url('/fonts/CircularXX-Thin.otf') format('opentype'),
         url('/fonts/CircularXX-Thin.otf') format('opentype');
     font-weight: normal;
     font-style: Thin;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'CircularXX-Bold';
+    src: url('/fonts/CircularXX-Bold.otf') format('opentype'),
+        url('/fonts/CircularXX-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: Bold;
     font-display: swap;
 }
 
@@ -59,6 +67,7 @@ h2{
 h3{
     color: var(--primario-green);
     text-align: start;
+    font-family: var(--font-family-circular);
     font-size: 18px !important;
     font-weight: 500 !important;
 }
@@ -86,6 +95,11 @@ p{
     text-align: start;
     margin-bottom: 4px;
 }
+.txt-bold{
+    font-family: var(--font-family-circular-Bold);
+    font-size: 14px;
+    font-weight: 200;
+}
 .cliente{
     text-align: center;
     font-family: var(--font-family-circular-light);
@@ -96,14 +110,12 @@ p{
 .contacto-ico{
     width: 54px;
 }
-
 .ico{
     width: 24px;
 }
 .rotate{
     transform: rotate(-180deg);
 }
-
 /*--Margenes--*/
 .mg-top{
     margin-top: 24px !important;
@@ -112,13 +124,22 @@ p{
     margin: 24px 0px;
     align-items: center;
 }
+.sp-24{
+    padding-bottom: 24px;
+}
+.sp-16{
+    padding-bottom: 16px;
+}
+.mrg-menu{
+    margin-top: 350px !important;
+}
 /*--Fin Margenes--*/
+/*----Botones-----*/
 .boton-v{
     background-color: var(--primario-green) !important;
     border-color: var(--primario-green) !important;
     height: 56px;
 }
-
 .btn-bg-white{
     color: var(--primario) !important;
     border-color: var(--primario-green) !important;
@@ -141,6 +162,24 @@ p{
     text-align: center;
     margin-top: 55px;
 }
+.btn-gray{
+    color: #829494 !important;
+    border-color: #829494 !important;
+    background-color: white !important;
+    text-align: start !important;
+    font-family: var(--font-family-circular-Thin);
+}
+.btn-cerrar{
+    width: 300px;
+    margin: auto;
+    background-color: #8FB6A7 !important;
+    color: white !important;
+    border-color: white !important;
+}
+.rst{
+    all: unset !important;
+}
+/*----Fin Botones-----*/
 .logo-img{
     width: 50%;
     /*-margin: 24px;-*/
