@@ -238,6 +238,9 @@ tr{
     margin: 0px;
     padding: 0px;
 }
+th{
+    font-family: var(--font-family-circular-Thin);
+}
 
 tr > td{
     padding: 2px !important;
