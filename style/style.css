@@ -141,6 +141,9 @@ a{
 .margenes{
     padding: 0 16px !important;
 }
+.pd-0{
+    padding: 0px !important;
+}
 /*--Fin Margenes--*/
 /*----Botones-----*/
 .boton-v{
@@ -157,6 +160,9 @@ a{
 }
 .btn-white{
     color: var(--primario-green) !important;
+    font-family: var(--font-family-circular);
+    position: fixed;
+    width: 200px;
     border-color: var(--primario-green) !important;
     background-color: white !important;
     height: 56px;
