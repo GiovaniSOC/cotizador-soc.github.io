@@ -126,6 +126,12 @@ a{
 .rotate{
     transform: rotate(-180deg);
 }
+.txt-fav{
+    font-size: 14px;
+    font-weight: 200;
+    text-align: start;
+    margin-bottom: 0px;
+}
 /*--Margenes--*/
 .mg-top{
     margin-top: 24px !important;
@@ -220,7 +226,7 @@ a{
     padding: 8px !important;
 }
 .form-select{
-    height: 56px !important;
+    height: 44px !important;
     color: var(--btn) !important;
     font-family: var(--font-family-circular-light);
 }
@@ -232,9 +238,9 @@ a{
     font-family: var(--font-family-circular-light);
 }
 .form-calendar{    
-    width: 25px;
+    width: 50px !important;
     position: relative;
-    top: -40px;
+    top: -425px;
     left: 280px;
 }
 input{
@@ -287,6 +293,15 @@ label, .form-text{
     margin-bottom: 0px;
     font-family: var(--font-family-circular-Thin);
 }
+/*----Modal credito----*/
+.modal-content{
+    margin-top: 50px;
+    color: white;
+    border: none !important;
+}
+.modal{
+    background-color: #83DF9F;
+}
 
 /*----Credito------*/
 .mensualidad-txt{
@@ -295,9 +310,10 @@ label, .form-text{
     font-family: var(--font-family-circular-Bold);
 }
 .card-credito{
-    background-color: #EDFBF2;
-    color: #006D4E;
-    height: 100px;
+    /*--background-color: #EDFBF2;--*/
+    color: var(--primario);
+    border: 0.5px solid #52deff;
+    height: 130px;
     align-items: center;
     margin-bottom: 18px;
 }
@@ -319,6 +335,7 @@ tr > th{
 
 .breadc{
     text-decoration: underline !important;
+    font-size: 18px;
     color: var(--primario);
     font-family: var(--font-family-circular);
 }
