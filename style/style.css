@@ -179,7 +179,7 @@ a{
     border-color: var(--primario-green) !important;
     background-color: white !important;
     height: 56px;
-    font-family:var(--font-family-circular-Thin);
+    font-family:var(--font-family-circular-Book);
 }
 .btn-white{
     color: var(--primario-green) !important;
@@ -193,7 +193,7 @@ a{
 .btn-line-green{
     color: var(--primario-green) !important;
     border-color: var(--primario) !important;
-    font-family: var(--font-family-circular);
+    font-family: var(--font-family-circular-Book);
     background-color: white !important;
     height: 40px;
     margin: auto;
@@ -206,7 +206,7 @@ a{
     border-color: #829494 !important;
     background-color: white !important;
     text-align: start !important;
-    font-family: var(--font-family-circular-Thin);
+    font-family: var(--font-family-circular-Book);
 }
 .btn-cerrar{
     width: 300px;
@@ -315,7 +315,7 @@ label, .form-text{
 .mensualidad-txt{
     color: var(--primario);
     font-size: 14px !important;
-    font-family: var(--font-family-circular-Bold);
+    font-family: var(--font-family-circular-Book);
 }
 .card-credito{
     /*--background-color: #EDFBF2;--*/
