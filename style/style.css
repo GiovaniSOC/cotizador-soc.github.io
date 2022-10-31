@@ -4,7 +4,7 @@
     --secundario-blue: #079DEF;
     --secundario-305C: #52DEFF;
     --secundario-164c: #FF7150;
-    --btn: #ced4da;
+    --btn: #6c757d;
     --font-family-circular: 'CircularXX-Regular';
     --font-family-circular-light: 'CircularXX-Light';
     --font-family-circular-Thin: 'CircularXX-Thin';
@@ -54,7 +54,7 @@ body{
     padding: 0px 16px !important;
 }
 h1{
-    font-size: 28px !important;
+    font-size: 20px !important;
     margin-bottom: 24px !important;
     text-align: center;
     color: var(--primario-green);
@@ -69,7 +69,7 @@ h3{
     color: var(--primario-green);
     text-align: start;
     font-family: var(--font-family-circular);
-    font-size: 18px !important;
+    font-size: 20px !important;
     font-weight: 500 !important;
 }
 h4{
@@ -214,7 +214,10 @@ a{
 .form-control{
     font-family: var(--font-family-circular-light) !important;
     color: var(--btn) !important;
-    height: 56px;
+    height: 44px !important;
+}
+.floatingInput{
+    padding: 8px !important;
 }
 .form-select{
     height: 56px !important;
@@ -234,6 +237,10 @@ a{
     top: -40px;
     left: 280px;
 }
+input{
+    color: #079DEF;
+}
+input ::placeholder { color: blue; }
 /*----Fin Botones-----*/
 .logo-img{
     width: 50%;
