@@ -99,14 +99,14 @@
 .menuppal ul li a{
   text-decoration:none;
   color:white;
-  font-family: var(--font-family-circular-Bold);
+  font-family: var(--font-family-circular-Book);
   font-size: 22px;
   margin-bottom: 0px;
 }
 .menuppal ul li a:hover{
   text-decoration:none;
   color: var(--primario);
-  font-family: var(--font-family-circular-Bold);
+  font-family: var(--font-family-circular-Book);
   font-size: 22px;
   margin-bottom: 0px;
 }
