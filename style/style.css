@@ -57,7 +57,7 @@
 body{
     font-weight: 500;
     color: var(--primario);
-    font-family: var(--font-family-circular-Book);
+    font-family: var(--font-family-circular-Book) !important;
 }
 .margen-l{
     padding: 0px 16px !important;
@@ -67,7 +67,7 @@ h1{
     margin-bottom: 24px !important;
     text-align: center;
     color: var(--primario-green);
-    font-family: var(--font-family-circular-Book) !important;
+    font-family: var(--font-family-circular-Book);
 }
 h2{
     text-align: center;
@@ -342,7 +342,9 @@ tr > td{
 tr > th{
     padding: 2px !important;
 }
-
+.breadcrumb-item.active{
+    font-family: var(--font-family-circular-Book);
+}
 .breadc{
     text-decoration: underline !important;
     font-size: 18px;
