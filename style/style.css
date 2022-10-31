@@ -6,20 +6,11 @@
     --secundario-164c: #FF7150;
     --btn: #6c757d;
     --font-family-circular: 'CircularXX-Regular';
-    --font-family-circular-light: 'CircularXX-Light';
     --font-family-circular-Thin: 'CircularXX-Thin';
-    --font-family-circular-Bold: 'CircularXX-Bold';
     --font-family-circular-Book: 'CircularXX-Book';
 }
 /*------Font-------*/
 @font-face {
-    font-family: 'CircularXX-Regular';
-    src: url('/fonts/CircularXX-Regular.otf') format('opentype'),
-        url('/fonts/CircularXX-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}@font-face {
     font-family: 'CircularXX-Book';
     src: url('/fonts/CircularXX-Book.otf') format('opentype'),
         url('/fonts/CircularXX-Book.otf') format('opentype');
@@ -28,11 +19,11 @@
     font-display: swap;
 }
 @font-face {
-    font-family: 'CircularXX-Light';
-    src: url('/fonts/CircularXX-Light.otf') format('opentype'),
-        url('/fonts/CircularXX-Light.otf') format('opentype');
+    font-family: 'CircularXX-Regular';
+    src: url('/fonts/CircularXX-Regular.otf') format('opentype'),
+        url('/fonts/CircularXX-Regular.otf') format('opentype');
     font-weight: normal;
-    font-style: light;
+    font-style: normal;
     font-display: swap;
 }
 @font-face {
@@ -43,15 +34,6 @@
     font-style: Thin;
     font-display: swap;
 }
-@font-face {
-    font-family: 'CircularXX-Bold';
-    src: url('/fonts/CircularXX-Bold.otf') format('opentype'),
-        url('/fonts/CircularXX-Bold.otf') format('opentype');
-    font-weight: normal;
-    font-style: Bold;
-    font-display: swap;
-}
-
 
 /*----------Style-------------*/
 body{
@@ -92,6 +74,9 @@ p{
 }
 a{
     text-decoration: none !important;
+}
+a:hover{
+    color: var(--primario) !important;
 }
 .legal{
     font-family: var(--font-family-circular-Book);
@@ -183,7 +168,7 @@ a{
 }
 .btn-white{
     color: var(--primario-green) !important;
-    font-family: var(--font-family-circular);
+    font-family: var(--font-family-circular-Book);
     position: fixed;
     width: 200px;
     border-color: var(--primario-green) !important;
