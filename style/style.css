@@ -9,12 +9,20 @@
     --font-family-circular-light: 'CircularXX-Light';
     --font-family-circular-Thin: 'CircularXX-Thin';
     --font-family-circular-Bold: 'CircularXX-Bold';
+    --font-family-circular-Book: 'CircularXX-Book';
 }
 /*------Font-------*/
 @font-face {
     font-family: 'CircularXX-Regular';
     src: url('/fonts/CircularXX-Regular.otf') format('opentype'),
         url('/fonts/CircularXX-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}@font-face {
+    font-family: 'CircularXX-Book';
+    src: url('/fonts/CircularXX-Book.otf') format('opentype'),
+        url('/fonts/CircularXX-Book.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -58,7 +66,7 @@ h1{
     margin-bottom: 24px !important;
     text-align: center;
     color: var(--primario-green);
-    font-family: var(--font-family-circular-Bold) !important;
+    font-family: var(--font-family-circular-Book) !important;
 }
 h2{
     text-align: center;
@@ -68,7 +76,7 @@ h2{
 h3{
     color: var(--primario-green);
     text-align: start;
-    font-family: var(--font-family-circular);
+    font-family: var(--font-family-circular-Book);
     font-size: 20px !important;
     font-weight: 500 !important;
 }
@@ -98,7 +106,7 @@ a{
     margin-bottom: 8px;
 }
 .txt-thin{
-    font-family: var(--font-family-circular-Thin);
+    font-family: var(--font-family-circular-Book);
     color: var(--primario);
     font-size: 14px;
     font-weight: 200;
@@ -106,13 +114,13 @@ a{
     margin-bottom: 4px;
 }
 .txt-bold{
-    font-family: var(--font-family-circular-Bold);
+    font-family: var(--font-family-circular-Book);
     font-size: 14px;
     font-weight: 200;
 }
 .cliente{
     text-align: center;
-    font-family: var(--font-family-circular-light);
+    font-family: var(--font-family-circular-Book);
 }
 .contacto{
     text-align: center;
@@ -283,7 +291,7 @@ label, .form-text{
     color: var(--primario);
     text-align: start;
     font-weight: 300 !important;
-    font-family: var(--font-family-circular-Thin);
+    font-family: var(--font-family-circular-Book);
 }
 .fecha{
     color: var(--btn);
