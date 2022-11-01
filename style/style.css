@@ -152,6 +152,9 @@ a:hover{
 .txt-align-s{
     text-align: start !important;
 }
+.form-select-sm {
+    font-size: .800rem !important;
+}
 /*--Fin Margenes--*/
 /*----Botones-----*/
 .boton-v{
