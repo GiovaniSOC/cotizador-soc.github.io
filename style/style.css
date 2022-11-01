@@ -5,9 +5,9 @@
     --secundario-305C: #52DEFF;
     --secundario-164c: #FF7150;
     --btn: #6c757d;
+    --font-family-circular-Book: 'CircularXX-Book';
     --font-family-circular: 'CircularXX-Regular';
     --font-family-circular-Thin: 'CircularXX-Thin';
-    --font-family-circular-Book: 'CircularXX-Book';
 }
 /*------Font-------*/
 @font-face {
@@ -68,6 +68,11 @@ h4{
     font-family: var(--font-family-circular-Book);
     text-align: center;
     font-size: 16px !important;
+}
+.texto-14{
+    font-size: 14px !important;
+    color: var(--primario) !important;
+    font-family: var(--font-family-circular-Book) !important;
 }
 p{
     font-family: var(--font-family-circular-Book);
@@ -186,8 +191,8 @@ a:hover{
     height: 40px;
     margin: auto;
     width: 250px;
-    text-align: center;
     margin-top: 55px;
+    margin-bottom: 18px;
 }
 .btn-gray{
     color: #829494 !important;
@@ -304,6 +309,14 @@ label, .form-text{
     color: var(--primario);
     font-size: 14px !important;
     font-family: var(--font-family-circular-Book);
+}
+.accordion-button:not(.collapsed){
+    color: var(--primario) !important;
+    background-color: white !important;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+    transform: rotate(-180deg);
 }
 .card-credito{
     /*--background-color: #EDFBF2;--*/
