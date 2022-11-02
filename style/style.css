@@ -37,7 +37,6 @@
 
 /*----------Style-------------*/
 body{
-    font-weight: 500;
     color: var(--primario);
     font-family: var(--font-family-circular-Book) !important;
 }
@@ -248,6 +247,23 @@ a:hover{
 input{
     color: #079DEF;
 }
+        
+            
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+}
+
 /*----Fin Botones-----*/
 .logo-img{
     width: 50%;
@@ -313,10 +329,6 @@ label, .form-text{
 .accordion-button:not(.collapsed){
     color: var(--primario) !important;
     background-color: white !important;
-}
-.accordion-button:not(.collapsed)::after {
-    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
-    transform: rotate(-180deg);
 }
 .card-credito{
     /*--background-color: #EDFBF2;--*/
