@@ -319,7 +319,16 @@ label, .form-text{
 .modal{
     background-color: #83DF9F;
 }
-
+/*-----ver-mas---*/
+.accordion-item{
+    border: none !important;
+    color: var(--btn);
+    margin: 0px;
+    padding: 0px;
+}
+.accordion-body{
+    padding: 0px !important;
+}
 /*----Credito------*/
 .mensualidad-txt{
     color: var(--primario);
