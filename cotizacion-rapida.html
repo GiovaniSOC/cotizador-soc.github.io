@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style/menu.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
     <title>Comparador</title>
   </head>
   <body>
@@ -104,6 +105,59 @@
           </div>
           <div class="mb-3">
             <label for="formGroupExampleInput" class="form-label">Plazos a cotizar</label>
+            <div class="dropdown bootstrap-select show-tick">
+              <select class="selectpicker" multiple="" tabindex="-98">
+                <option value="2">23 AÑOS</option>
+                <option value="3">20 AÑOS</option>
+                <option value="4">19 AÑOS</option>
+                <option value="5">18 AÑOS</option>
+                <option value="6">17 AÑOS</option>
+                <option value="7">16 AÑOS</option>
+                <option value="8">15 AÑOS</option>
+                <option value="9">14 AÑOS</option>
+                <option value="10">13 AÑOS</option>
+                <option value="11">12 AÑOS</option>
+                <option value="12">11 AÑOS</option>
+                <option value="13">10 AÑOS</option>
+                <option value="14">5 AÑOS</option>
+                <div class="filter-option">
+                  <div class="filter-option-inner">
+                    <div class="filter-option-inner-inner">Plazos a cotizar</div>
+                  </div> 
+                </div>
+            </select>  
+          </div> 
+            <style>
+              .dropdown{
+                width: 320px !important;
+                height: 44px;
+              }
+              .dropdown-item{
+                color: #006D4E;
+              }
+              .dropdown-item:hover{
+                color: #006D4E;
+              }
+              .dropdown-item:active{
+                background-color: #006D4E;
+                color: white;
+              }
+              .dropdown-toggle{
+                background-color: white !important;
+              }
+              .filter-option{
+                border: 1px solid #ced4da;
+                border-radius: 4px;
+              }
+              .filter-option-inner-inner{
+                color: #6c757d !important;
+              }
+            </style>
+            
+          </div> <br><br>
+
+          <!---<div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Plazos a cotizar</label>
             <select class="form-select" aria-label="Default select">
               <option selected>Selecciona el/los plazo(s) a cotizar</option>
               <option value="2">23 AÑOS</option>
@@ -120,7 +174,7 @@
               <option value="13">10 AÑOS</option>
               <option value="14">5 AÑOS</option>
             </select>
-          </div>
+          </div>-->
           <div class="mb-3">
             <label for="formGroupExampleInput" class="form-label">Esquema de pago</label> <br>
             <div class="form-check form-check-inline">
@@ -140,6 +194,7 @@
             <label for="formGroupExampleInput" class="form-label">Bancos</label>
             <select class="form-select" aria-label="Default select">
               <option selected>Selecciona el/los banco(s) de interés</option>
+              <option value="1">SELECCIONAR TODOS</option>
               <option value="1">AFIRME</option>
               <option value="2">BANCA MIFEL</option>
               <option value="3">BANORTE</option>
@@ -215,6 +270,9 @@
 <script src="app.js"></script>
 
     <!-- Bootstrap -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
