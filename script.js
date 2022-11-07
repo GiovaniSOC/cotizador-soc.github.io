@@ -20,19 +20,42 @@ item.addEventListener("click", () => {
         }
 });
 })
+
+//Seleccionar banco
+const selectBtnBanco = document.querySelector(".select-btn-banco");
+bancos = document.querySelectorAll(".bancos");
+
+selectBtnBanco.addEventListener("click", () => {
+selectBtnBanco.classList.toggle("open");
+});
+
+bancos.forEach(bancos => {
+bancos.addEventListener("click", () => {
+  bancos.classList.toggle("checkedB");
+
+  let checkedB = document.querySelectorAll(".checkedB"),
+      btnTextB = document.querySelector(".btn-textB");
+
+      if(checkedB && checkedB.length > 0){
+          btnTextB.innerText = `${checkedB.length} Seleccionado(s)`
+      }else{
+          btnTextB.innerText = "Seleccionados";
+      }
+});
+})
 //Selecciona todos
 btn = document.getElementById('seleccionar-todos');
 btn.addEventListener("click", () => {
-    items.forEach(item => {
-        item.classList.add("checked");
+    bancos.forEach(bancos => {
+        bancos.classList.add("checked");
 
-    let checked = document.querySelectorAll(".checked"),
-        btnText = document.querySelector(".btn-text");
+    let checkedB = document.querySelectorAll(".checked"),
+        btnTextB = document.querySelector(".btn-textB");
 
-        if(checked && checked.length > 0){
-            btnText.innerText = `${checked.length} Seleccionado(s)`
+        if(checkedB && checkedB.length > 0){
+            btnTextB.innerText = `${checkedB.length} Seleccionado(s)`
         }else{
-            btnText.innerText = "Seleccionados";
+            btnTextB.innerText = "Seleccionados";
         }
     });
 });
