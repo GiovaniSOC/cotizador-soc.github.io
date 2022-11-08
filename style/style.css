@@ -183,8 +183,8 @@ a:hover{
     height: 56px;
 }
 .btn-line-green{
-    color: var(--primario-green) !important;
-    border-color: var(--primario) !important;
+    color: var(--secundario-blue) !important;
+    border-color: var(--secundario-blue) !important;
     font-family: var(--font-family-circular-Book);
     background-color: white !important;
     height: 40px;
