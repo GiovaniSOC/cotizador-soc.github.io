@@ -24,9 +24,10 @@
 }
 .navbar{
     height: 65px !important;
+	background-color: var(--primario) !important;
 }
 ._layer{
-	background: var(--primario);
+	background: white;
 	margin-bottom:4px;
 	border-radius:2px;
 	width:28px;

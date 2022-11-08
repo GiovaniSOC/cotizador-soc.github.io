@@ -162,8 +162,8 @@ a:hover{
 /*--Fin Margenes--*/
 /*----Botones-----*/
 .boton-v{
-    background-color: var(--primario-green) !important;
-    border-color: var(--primario-green) !important;
+    background-color: var(--secundario-blue) !important;
+    border-color: var(--secundario-blue) !important;
     height: 56px;
 }
 .btn-bg-white{
@@ -174,11 +174,11 @@ a:hover{
     font-family:var(--font-family-circular-Book);
 }
 .btn-white{
-    color: var(--primario-green) !important;
+    color: var(--secundario-blue) !important;
     font-family: var(--font-family-circular-Book);
     position: fixed;
     width: 200px;
-    border-color: var(--primario-green) !important;
+    border-color: var(--secundario-blue) !important;
     background-color: white !important;
     height: 56px;
 }
