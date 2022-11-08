@@ -80,7 +80,7 @@ a{
     text-decoration: none !important;
 }
 a:hover{
-    color: var(--primario) !important;
+    color: white !important;
 }
 .legal{
     font-family: var(--font-family-circular-Book);
