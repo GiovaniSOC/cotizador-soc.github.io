@@ -13,9 +13,22 @@
   </head>
   <body>
     <style>
-      body{
-        background-image: url("img/background-1.png");
+      body::before {    
+      content: "";
+      background-image: url("img/background-1.png");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
       }
+      .container{
+        background-color: white;
+        opacity: 0.99;
+      }
+      
     </style>
     <!--Nav-->
     <nav class="navbar fixed-top navbar-light">
@@ -83,7 +96,6 @@
               </div>
             </div>
           </div>
-      </div>
       <div class="row mg-top">
         <div class="col-12">
           <h3 class="cliente" >Contacta a tu cliente</h3>
@@ -101,6 +113,7 @@
         </div>
       </div>
     </div>
+      </div>
     <!--script-->
     <script src="app.js"></script>
     <!-- Bootstrap -->

@@ -14,8 +14,20 @@
   </head>
   <body>
     <style>
-      body{
-        background-image: url("img/background-1.png");
+      body::before {    
+      content: "";
+      background-image: url("img/background-1.png");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.5;
+      }
+      .container{
+        background-color: white;
+        opacity: 0.99;
       }
     </style>
     <!--Nav-->
