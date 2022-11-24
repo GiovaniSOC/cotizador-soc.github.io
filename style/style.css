@@ -208,12 +208,12 @@ a:hover{
     font-family:var(--font-family-circular-Book);
 }
 .btn-white{
-    color: var(--secundario-305C) !important;
+    color: white !important;
     font-family: var(--font-family-circular-Book);
     position: fixed;
     width: 200px;
     border-color: var(--secundario-305C) !important;
-    background-color: white !important;
+    background-color: var(--secundario-305C) !important;
     height: 56px;
 }
 .btn-line-green{
