@@ -420,6 +420,9 @@ tr > th{
     color: var(--primario-green);
     font-family: var(--font-family-circular-Book);
 }
+.enviar{
+    color: var(--primario-green);
+}
 /*----Select---*/
 .form-label{
 color: #006D4E;
