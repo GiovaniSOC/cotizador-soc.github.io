@@ -151,13 +151,13 @@ a:hover{
 .rotate{
     transform: rotate(-180deg);
 }
-.accordion-button:not(.collapsed)::after {
+/* .accordion-button:not(.collapsed)::after {
     background-image: url(/img/btn-desplegado.png) !important;
     transform: rotate(-180deg);
 }
 .accordion-button::after{
     background-image: url(/img/btn-desplegado.png) !important;
-}
+} */
 .txt-fav{
     font-size: 14px;
     font-weight: 200;
