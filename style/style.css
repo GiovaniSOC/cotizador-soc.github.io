@@ -141,8 +141,19 @@ a:hover{
 .ico{
     width: 24px;
 }
+.ico-right{
+    transform: scaleX(-1);
+    width: 24px;
+}
 .rotate{
     transform: rotate(-180deg);
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/img/btn-desplegado.png) !important;
+    transform: rotate(-180deg);
+}
+.accordion-button::after{
+    background-image: url(/img/btn-desplegado.png) !important;
 }
 .txt-fav{
     font-size: 14px;
@@ -165,7 +176,7 @@ a:hover{
     padding-bottom: 16px;
 }
 .mrg-menu{
-    margin-top: 415px !important;
+    margin-top: 385px !important;
 }
 .margenes{
     padding: 0 16px !important;
