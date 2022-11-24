@@ -69,7 +69,7 @@ h4{
     font-size: 16px !important;
 }
 .texto-14{
-    font-size: 14px !important;
+    font-size: 16px !important;
     color: var(--primario) !important;
     font-family: var(--font-family-circular-Book) !important;
 }
@@ -110,7 +110,7 @@ a:hover{
 /*---Deatlle caso-*/
 .txt-ligth{
     color: var(--primario);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 200;
     text-align: start;
     margin-bottom: 8px;
@@ -132,7 +132,7 @@ a:hover{
     text-align: center;
     font-family: var(--font-family-circular-Book);
     color: var(--primario-green);
-    font-size: 20px !important;
+    font-size: 18px !important;
     font-weight: 500 !important;
 }
 .contacto{
@@ -394,7 +394,7 @@ tr{
     margin: 0px;
     padding: 0px;
     font-family: var(--font-family-circular-Book);
-    font-size: 14px;
+    font-size: 16px;
 }
 th{
     font-family: var(--font-family-circular-Book);
