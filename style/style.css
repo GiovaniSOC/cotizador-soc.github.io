@@ -118,7 +118,7 @@ a:hover{
 .txt-thin{
     font-family: var(--font-family-circular-Book);
     color: var(--primario);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 200;
     text-align: start;
     margin-bottom: 4px;
