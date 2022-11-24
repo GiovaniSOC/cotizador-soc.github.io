@@ -59,8 +59,8 @@ h3{
     color: var(--primario-green);
     text-align: start;
     font-family: var(--font-family-circular-Book);
-    font-size: 20px !important;
-    font-weight: 500 !important;
+    font-size: 22px !important;
+    font-weight: 900 !important;
 }
 h4{
     color: var(--primario-green);
