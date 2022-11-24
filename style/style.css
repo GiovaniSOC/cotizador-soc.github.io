@@ -131,6 +131,9 @@ a:hover{
 .cliente{
     text-align: center;
     font-family: var(--font-family-circular-Book);
+    color: var(--primario-green);
+    font-size: 20px !important;
+    font-weight: 500 !important;
 }
 .contacto{
     text-align: center;
@@ -330,6 +333,7 @@ label, .form-text{
 .nombre{
     font-size: 16px !important;
     color: var(--primario);
+    margin-bottom: 2px;
     text-align: start;
     font-weight: 300 !important;
     font-family: var(--font-family-circular-Book);
@@ -360,12 +364,18 @@ label, .form-text{
 }
 .accordion-body{
     padding: 0px !important;
+    background-color: #FAFDFD;
+}
+.bg-acordion{
+background-color: #FAFDFD;
 }
 /*----Credito------*/
 .mensualidad-txt{
     color: var(--primario);
     font-size: 14px !important;
     font-family: var(--font-family-circular-Book);
+    text-align: start;
+    margin-bottom: 8px;
 }
 .accordion-button:not(.collapsed){
     color: var(--primario) !important;
