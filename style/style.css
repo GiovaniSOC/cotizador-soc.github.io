@@ -161,6 +161,9 @@ a:hover{
     text-align: start;
     margin-bottom: 0px;
 }
+.card{
+    background-color: #FAFDFD !important;
+}
 /*--Margenes--*/
 .mg-top{
     margin-top: 24px !important;
