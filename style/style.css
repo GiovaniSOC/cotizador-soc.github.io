@@ -87,6 +87,26 @@ a:hover{
     color: var(--primario);
     font-size: 10px;
 }
+.login-st{
+    background-color: #006D4E;
+    color: white !important;
+}
+.text-white{
+    color: white;
+}
+.text-green{
+    color: var(--primario);
+}
+.form-white{
+    background-color: var(--primario);
+    border: 1px solid var(--primario);
+}
+.btn-bg-green {
+    border-color: white !important;
+    background-color: var(--primario) !important;
+    height: 56px;
+    font-family: var(--font-family-circular-Book);}
+
 /*---Deatlle caso-*/
 .txt-ligth{
     color: var(--primario);
