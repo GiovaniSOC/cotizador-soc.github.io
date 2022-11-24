@@ -15,7 +15,12 @@
     <style>
       body::before {    
       content: "";
-      background-image: url("img/background-1.png");
+      background-image: 
+      linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+      url("img/test-1.png");
+      background-size: cover;
       background-size: cover;
       position: fixed;
       top: 0px;
@@ -24,9 +29,10 @@
       left: 0px;
       }
       .fondo{
-        background-color: white;
+        background-color: #FAFDFD;
         margin-bottom: 24px;
         opacity: 0.99;
+        border-radius: 20px;
       }
     </style>
     <!--Nav-->
@@ -72,8 +78,10 @@
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
                 <div class="row" style="align-items: center;">
-                  <div class="col-1" style="background-color:#E0F2F0;">
-                    <a href="opcion-credito.html" style="text-decoration: none; color:silver;"> < </a>
+                  <div class="col-1">
+                    <a href="cotizacion-rapida.html">
+                      <img src="img/btn-back.png" style="width: 24px;" alt="" srcset="">
+                    </a>
                   </div>
                   <div class="col-6">
                     <img src="img/banamex-t.png" style="width: 100%;" alt="" srcset="">
