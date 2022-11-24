@@ -68,7 +68,7 @@
   transform: translate3d(0px, 0px, 0px);
 }
 .menuppal{
-    background-color: #8fb6a7;
+    background-color: var(--primario);
     bottom: 0;
     height: 100%;
     left: 0;

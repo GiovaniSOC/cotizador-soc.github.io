@@ -174,11 +174,11 @@ a:hover{
     font-family:var(--font-family-circular-Book);
 }
 .btn-white{
-    color: var(--secundario-blue) !important;
+    color: var(--secundario-305C) !important;
     font-family: var(--font-family-circular-Book);
     position: fixed;
     width: 200px;
-    border-color: var(--secundario-blue) !important;
+    border-color: var(--secundario-305C) !important;
     background-color: white !important;
     height: 56px;
 }
@@ -203,7 +203,7 @@ a:hover{
 .btn-cerrar{
     width: 300px;
     margin: auto;
-    background-color: #8FB6A7 !important;
+    background-color: var(--primario) !important;
     color: white !important;
     border-color: white !important;
 }
@@ -241,14 +241,12 @@ a:hover{
 .form-calendar{    
     width: 50px !important;
     position: relative;
-    top: -425px;
-    left: 280px;
+    top: -420px;
+    left: 260px;
 }
 input{
     color: #079DEF;
-}
-        
-            
+}    
 .has-search .form-control {
     padding-left: 2.375rem;
 }
