@@ -151,13 +151,6 @@ a:hover{
 .rotate{
     transform: rotate(-180deg);
 }
-/* .accordion-button:not(.collapsed)::after {
-    background-image: url(/img/btn-desplegado.png) !important;
-    transform: rotate(-180deg);
-}
-.accordion-button::after{
-    background-image: url(/img/btn-desplegado.png) !important;
-} */
 .txt-fav{
     font-size: 14px;
     font-weight: 200;
@@ -379,8 +372,19 @@ background-color: #FAFDFD;
 }
 .accordion-button:not(.collapsed){
     color: var(--primario) !important;
-    background-color: white !important;
+    /* background-color: white !important; */
 }
+.accordion-button::after{
+    background-image: none !important;
+}
+
+/* .accordion-button:not(.collapsed)::after {
+    background-image: url(/img/btn-desplegado.png) !important;
+    transform: rotate(-180deg);
+}
+.accordion-button::after{
+    background-image: url(/img/btn-desplegado.png) !important;
+} */
 .card-credito{
     /*--background-color: #EDFBF2;--*/
     color: var(--primario);
@@ -521,7 +525,11 @@ transform: scale(1);
 .fa-mg:active{
     margin-left: 0px;
 }
-
+.promocion-acordion{
+    background-color: var(--primario) !important;
+    margin: 0;
+    color: white !important;
+}
 
 /*----Select Bancos---*/
 .form-label{
